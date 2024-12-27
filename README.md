@@ -5,5 +5,6 @@ Meu primeiro projeto com Git no Santander Tech+
 Segunda modificação
 
 ## Salvando alterações: Git log e restore
-* comando git push
+* comando git push 
 * comando git pull
+* comando git fetch

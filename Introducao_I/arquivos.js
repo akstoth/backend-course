@@ -68,5 +68,6 @@ fs.readFile(filePath, {}, (erro, dados) => {
     })
     // Exibindo o conteúdo do arquivo
     //console.log(dados.toString())  
+    
 })
 

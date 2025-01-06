@@ -7,10 +7,15 @@
 // Uma classe é um molde para criar objetos
 // com type, criamos um tipo de dado
 
-type Produto = {
+export type Produto = {
     nome: string;
     valor: number;
 }
+
+// Não funcionará assim
+//module.exports = {
+//    Produto
+//}
 
 /*// Primeira forma de criar uma classe
 class Estabelecimento {
@@ -30,7 +35,7 @@ class Estabelecimento {
 }
 */
 // Segunda foram de criar uma classe
-class Estabelecimento {
+class EstabelecimentoBase {
     // Definindo o tipo de dado de filaDeEspera, que é um número
     // public filaDeEspera: number
     // private _filaDeEspera: number
@@ -150,7 +155,7 @@ console.log(padaria.nomeDosProdutos())
 // Criamos agora um objeto a partir da classe Estabelecimento
 // Instanciando um objeto
 // O new é responsável por criar um novo objeto, ele executará o construtor
-const padaria3 = new Estabelecimento(
+const padaria3 = new EstabelecimentoBase(
     'Rua Dos Abacates, 123 - bloco D', 
     'alimentação',
     [
@@ -163,7 +168,7 @@ const padaria3 = new Estabelecimento(
     //Usando um valor já iniciado negativo, ainda está aceitando, como corrigir?
     -3 //-> Agora com o set, não aceita valores negativos
 )
-const padaria4 = new Estabelecimento(
+const padaria4 = new EstabelecimentoBase(
     'Rua Dos Morangos, 123 - bloco D', 
     'alimentação',
     [],

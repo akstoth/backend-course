@@ -1,0 +1,10 @@
+POST http://localhost:3500/api/users
+Content-Type: application/json 
+
+{
+  "name": "José",
+  "age": 30
+}
+
+###
+GET http://localhost:3500/api/users

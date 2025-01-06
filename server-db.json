@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "b2444b8a-54a3-4e48-9f58-45ec66856648",
+      "name": "Fulano",
+      "age": 28
+    },
+    {
+      "id": "cc55cc2f-656f-456f-bb9f-2e25dca8d735",
+      "name": "Mario",
+      "age": 3
+    },
+    {
+      "id": "f7bb55fc-9a16-4127-9802-d887f4896c26",
+      "name": "José",
+      "age": 39
+    },
+    {
+      "id": "2cc11488-0d2f-4ab5-b89c-16c73a43ae28",
+      "name": "Ciclano",
+      "age": 35
+    }
+  ]
+}

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "luxon": "^3.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
@@ -13,18 +15,23 @@
     "start-dev1": "nodemon ./POO/src/01-oop.ts",
     "start-dev2": "nodemon ./POO/src/02-oop.ts",
     "start-dev3": "nodemon ./POO/src/03-oop-heranca.ts",
-    "start-dev4": "nodemon ./POO/src/04-oop-composicao.ts"
+    "start-dev4": "nodemon ./POO/src/04-oop-composicao.ts",
+    "dev5": "ts-node-dev ./Express_I/hello-world.ts",
+    "dev": "ts-node-dev server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.5",
     "@typescript-eslint/eslint-plugin": "^8.19.0",
     "@typescript-eslint/parser": "^8.19.0",
     "eslint": "^9.17.0",
     "nodemon": "^3.1.9",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "ts-node-dev": "^2.0.0"
   }
 }

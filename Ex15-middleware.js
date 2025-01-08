@@ -1,3 +1,5 @@
+
+// Primeira solução
 export function getMiddlewareAcronym(description) {
 	let param = 0
 	const acronyms = [
@@ -14,13 +16,24 @@ export function getMiddlewareAcronym(description) {
 		"BM",
 		"TM"
 	]
-	for (let i = 0; i < acronyms.length;i++){
-		if(description.toUpperCase() === acronyms[i]) {
-			return _acronyms[i];
+	for (let i = 0; i < acronyms.length; i++) {
+		if (description.toUpperCase() === acronyms[i]) {
 			param++
+			return _acronyms[i];
 		}
 	}
-	if(!param){
+	if (!param) {
 		return "Unknown Description"
 	}
+}
+
+// Segunda solução: usar for in ou for of?
+export function getMiddlewareAcronym(description) {
+	const acronyms = [
+		"APPLICATION MIDDLEWARE",
+		"ROUTER MIDDLEWARE",
+		"ERROR HANDLING MIDDLEWARE",
+		"BUILT-IN MIDDLEWARE",
+		"THIRD-PARTY MIDDLEWARE"
+	]
 }

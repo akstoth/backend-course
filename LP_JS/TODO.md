@@ -22,8 +22,38 @@
 
 ## Gerenciamento de memória dinâmica
 
-- [ ] Variáveis
-- [ ] Constantes
-- [ ] Vetores
-- [ ] Hoisting
-- [ ] Escopo
+- [x] Variáveis
+- [x] Constantes
+- [x] Tipos
+  - [x] Number
+    - [x] Inteiro
+    - [x] Real
+  - [x] String
+  - [x] Boolean
+  - [x] Undefined
+  - [x] Null
+  - [x] NaN -> Operações incorretas
+- [x] Hoisting
+- [x] Operações matemáticas
+- [x] Vetores
+- [x] Escopo
+
+## Controle de fluxo I
+
+- [x] Controle de fluxo: if()
+- [x] Condicionais if() e else()
+- [x] Lógica booleana
+- [x] Operadores booleanos
+- [x] truthy/falsy -> Expressões que são avaliada em verdadeiro e falso
+- [x] Ternários
+
+## Controle de fluxo II
+
+- [x] while
+- [x] do-while
+
+## Controle de fluxo III
+
+- [x] for-of
+- [x] for-in
+  - [x] objetos

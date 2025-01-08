@@ -64,4 +64,16 @@
 
 ## Gerenciamento de memória dinâmica
 
--
+- [null x undefined](https://backefront.com.br/posts/null-undefined.jpeg):
+- Atalho interessante? ALT+SHIFT+(seta para baixo)
+- Para comentar várias linhas, utilize _Ctrl+;_, depende da configuração
+- Escopo: Toda vez que abrimos uma chave, temos um novo escopo. Caso dentro
+  desse escopo, a variável torna-se local
+- Comando para corrigir os arquivos.js: `npx eslint --fix *.j` assim alterará
+  automaticamente para o LF
+
+## Controle de fluxo
+
+- for-of: para manipular arrays
+- for-in: para manipular objetos
+- Mais detalhes em [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
